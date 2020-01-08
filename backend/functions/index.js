@@ -38,7 +38,6 @@ app.post('/register', async (req,res) => {
         lastname:req.body.lastname,
         email:req.body.email,
         mobile:req.body.mobile,
-        password:req.body.password,
         user_type:req.body.user_type,
         approved_status:"N"
     }
